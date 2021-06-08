@@ -1,0 +1,34 @@
+.section5.container {
+  .section5-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    h2 {
+      font-size: 2.5rem;
+      @media (max-width: 1024px) {
+        font-size: 2rem;
+      }
+    }
+    h2.details {
+      font-size: 2rem;
+      color: $secondarycolor;
+      @media (max-width: 1024px) {
+        font-size: 1.7rem;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      color: $secondarycolor;
+      @media (max-width: 1024px) {
+        font-size: 1.2rem;
+      }
+    }
+    @media (max-width: 1600px) {
+      img {
+        width: 80%;
+      }
+    }
+  }
+}

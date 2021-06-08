@@ -1,0 +1,60 @@
+.section8 {
+  .section8-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    .section8-left-image {
+      img {
+        @media (max-width: 1400px) {
+          width: 350px;
+        }
+      }
+    }
+    .section8-right-reviews {
+      padding-left: 6rem;
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.5rem;
+        color: $secondarycolor;
+        padding-bottom: 3rem;
+        line-height: 3rem;
+      }
+      span {
+        color: $secondarycolor;
+      }
+      .rating-box {
+        .rating-star {
+          font-size: 1rem;
+          width: 1rem;
+          height: 3rem;
+          position: relative;
+          display: block;
+          float: left;
+        }
+
+        .full-star:before {
+          color: $star-color;
+          content: '\2605';
+          position: absolute;
+          left: 0;
+          overflow: hidden;
+        }
+      }
+      @media (max-width: 800px) {
+        padding: 0 2rem;
+      }
+      @media (max-width: 600px) {
+        text-align: center;
+      }
+    }
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 800px) {
+    padding: 0;
+  }
+}

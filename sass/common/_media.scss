@@ -1,0 +1,347 @@
+.imgResponsive {
+  display: none;
+}
+
+header .header-wrapper .menu-item ul li .product-content:hover {
+  display: block;
+}
+
+@media (max-width: 1600px) {
+  .section4 {
+    height: 674px;
+  }
+}
+
+@media (max-width: 900px) {
+  header .header-wrapper .nav-menu {
+    position: absolute;
+    width: 100%;
+    top: 104px;
+    z-index: 123123;
+    background: #fff;
+    left: 0;
+  }
+
+  .menu-item {
+    width: 100%;
+  }
+
+  header .header-wrapper .menu-item ul {
+    flex-direction: column;
+    padding: 1rem 0;
+    align-items: center;
+  }
+
+  header .header-wrapper .menu-item ul li {
+    font-size: 1.2rem;
+  }
+  header .header-wrapper {
+    overflow: unset;
+  }
+
+  footer .footer-wrapper .footer-horizontal-rule {
+    width: 850px;
+    margin-bottom: -65px;
+  }
+}
+
+@media (max-width: 600px) {
+  header .header-wrapper {
+    padding: 1.5rem 15px;
+  }
+  header .header-wrapper .menu-button {
+    display: none;
+  }
+
+  header .header-wrapper .menu-item ul li {
+    padding-left: 0;
+  }
+
+  .section-hero .slides-caption-left {
+    margin-right: 0;
+    padding-top: 137px;
+  }
+
+  .page-wrapper {
+    height: auto;
+  }
+
+  .section-hero .slides-caption-left .hero-info .page-button {
+    padding-top: 3rem;
+  }
+
+  .section-hero .slides-caption-left .hero-info h1 {
+    margin: 0 0 1rem;
+  }
+
+  .hero-footer .hero-footer-content p {
+    padding: 0 0 1rem;
+  }
+
+  .section1 {
+    margin: 0;
+  }
+
+  .section1 .section1-info h2 {
+    font-size: 2rem;
+  }
+
+  .section1 .section-container {
+    padding-top: 2rem;
+  }
+
+  .section1
+    .section-container
+    .section-right-details-container
+    .section-right-details {
+    padding: 0;
+    margin-top: 1.2rem;
+  }
+
+  .section1
+    .section-container
+    .section-right-details-container
+    .section-right-details
+    .list-item
+    p {
+    padding: 0 0 1rem;
+  }
+
+  .section1 .section-container .section-left-container {
+    margin-top: 2rem;
+  }
+
+  .section1-footer .section1-footer-content h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .section1-footer {
+    padding: 1rem;
+  }
+
+  .section1-footer .section1-footer-content .app-crop {
+    width: 100%;
+    height: auto;
+    object-fit: unset;
+    object-position: unset;
+  }
+  .section1 .section1-content {
+    min-height: unset;
+  }
+
+  .section2 .section2-wrapper .card1-container .card-wrapper {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .section2
+    .section2-wrapper
+    .card1-container
+    .card-wrapper
+    .card-item-content-right
+    h3 {
+    padding: 0 0 1rem;
+  }
+
+  .card-item-content-left {
+    img {
+      width: 100%;
+    }
+  }
+
+  .section2
+    .section2-wrapper
+    .card2-container
+    .card-flex-container
+    .card-item-2
+    .card-item-content {
+    padding: 1rem;
+  }
+
+  .section2
+    .section2-wrapper
+    .card2-container
+    .card-flex-container
+    .card-item-2
+    .card-item-content
+    h3 {
+    padding: 0 0 1rem;
+  }
+
+  .section2
+    .section2-wrapper
+    .card2-container
+    .card-flex-container
+    .card-item-2
+    .card-item-content
+    p {
+    padding: 0;
+  }
+
+  .section2
+    .section2-wrapper
+    .card2-container
+    .card-flex-container
+    .card-item-3
+    .card-item-content {
+    padding: 1rem;
+  }
+
+  .section2
+    .section2-wrapper
+    .card2-container
+    .card-flex-container
+    .card-item-3
+    .card-item-content
+    h3 {
+    padding: 0;
+  }
+
+  .section3-wrapper .section3-header-content .section3-info-details h2 {
+    font-size: 1.5rem;
+  }
+
+  .section3-wrapper .section3-main-content .section3-content-left {
+    text-align: center;
+  }
+
+  .section3-wrapper .section3-main-content .section3-content-right {
+    text-align: center;
+  }
+
+  .phone_wrapper {
+    img {
+      width: 100%;
+    }
+  }
+  .section3-wrapper .section3-main-content {
+    padding: 1rem;
+  }
+
+  .section4 {
+    background: none;
+    height: auto;
+    .container {
+      padding: 0;
+    }
+  }
+
+  .imgResponsive {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+
+  .section5.container .section5-main-content {
+    padding: 0;
+    text-align: center;
+    h2.details {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  .section5.container .section5-main-content h2 {
+    font-size: 1.5rem;
+  }
+  .section6 .section6-wrapper-container .section6-main-content .right-content {
+    h2 {
+      font-size: 1.5rem;
+    }
+    img {
+      width: 30%;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    button {
+      line-height: 2rem;
+      width: 10rem;
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .section7 .section7-wrapper .section7-main-container .section7-content-right {
+    h2 {
+      font-size: 1.5rem;
+    }
+    img {
+      width: 30%;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    button {
+      line-height: 2rem;
+      width: 10rem;
+      a {
+        font-size: 0.8rem;
+      }
+    }
+    padding-bottom: 2rem;
+  }
+
+  .section8 .section8-wrapper .section8-left-image img {
+    width: 300px;
+  }
+  .section8 .section8-wrapper .section8-right-reviews {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .section8
+    .section8-wrapper
+    .section8-right-reviews
+    .rating-box
+    span
+    .rating-star
+    .full-star
+    .first-star {
+    margin-left: 5.5rem;
+  }
+
+  .section9
+    .section9-wrapper
+    .section9-content-left
+    .list-container
+    .plus-sign {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+  }
+  .section9 .section9-wrapper .section9-content-right img {
+    width: 325px;
+  }
+  .section9
+    .section9-wrapper
+    .section9-content-left
+    .list-container
+    .common-question-list {
+    padding-top: 1rem;
+  }
+
+  .section10 .section10-wrapper .section10-left-content img {
+    width: 75%;
+  }
+  .section10 .section10-wrapper .section10-right-content {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  footer .footer-wrapper .footer-horizontal-rule {
+    width: 270px;
+    margin-bottom: -65px;
+  }
+  footer .footer-wrapper .footer-copyright {
+    flex-direction: column;
+  }
+}

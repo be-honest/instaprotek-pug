@@ -1,0 +1,158 @@
+.section6 {
+  .section6-wrapper-container {
+    background-color: #f2f2f2;
+    position: relative;
+    height: 720px;
+    .content-left-img {
+      position: absolute;
+      width: 700px;
+      height: 700px;
+      background-image: url('/imgs/Group 1164.png');
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-size: 100%;
+      transform: scaleX(-1);
+      @media (max-width: 1400px) {
+        width: 35%;
+      }
+      @media (max-width: 1024px) {
+        width: 45%;
+      }
+      @media (max-width: 880px) {
+        position: static;
+        height: auto;
+      }
+    }
+    .section6-main-content {
+      height: 100%;
+      .left-content {
+        position: relative;
+        .front {
+          position: absolute;
+          left: -89px;
+          top: 372px;
+          z-index: 1;
+          box-shadow: 0px 5px 12px rgba(59, 61, 61, 0.4);
+          @media (max-width: 1600px) {
+            left: 90px;
+          }
+          @media (max-width: 1400px) {
+            width: 35%;
+          }
+          @media (max-width: 1024px) {
+            width: 40%;
+            left: -5px;
+            top: 290px;
+          }
+          @media (max-width: 880px) {
+            position: static;
+            width: 70%;
+            padding-bottom: 1rem;
+          }
+          @media (max-width: 600px) {
+            width: 100%;
+          }
+        }
+        .back {
+          position: absolute;
+          top: 207px;
+          left: 210px;
+          box-shadow: 0px 5px 12px rgba(59, 61, 61, 0.4);
+          @media (max-width: 1600px) {
+            top: 215px;
+            left: 275px;
+          }
+          @media (max-width: 1400px) {
+            width: 35%;
+          }
+          @media (max-width: 1400px) {
+            width: 35%;
+          }
+          @media (max-width: 1024px) {
+            width: 40%;
+            left: 130px;
+            top: 185px;
+          }
+          @media (max-width: 880px) {
+            position: static;
+            width: 70%;
+          }
+          @media (max-width: 600px) {
+            width: 100%;
+          }
+        }
+        @media (max-width: 880px) {
+          position: static;
+          margin-left: 11rem;
+        }
+        @media (max-width: 600px) {
+          margin: 0;
+        }
+      }
+      .right-content {
+        position: absolute;
+        left: 63rem;
+        top: 10rem;
+        @media (max-width: 1400px) {
+          left: 52rem;
+        }
+        @media (max-width: 1200px) {
+          left: 48rem;
+        }
+        @media (max-width: 1024px) {
+          left: 37rem;
+          top: 72px;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 2rem;
+          padding-top: 1rem;
+          color: $secondarycolor;
+          padding-right: 9rem;
+          padding-bottom: 5rem;
+          @media (max-width: 1400px) {
+            padding-bottom: 1rem;
+            padding-right: 1rem;
+          }
+          @media (max-width: 1024px) {
+            padding-bottom: 1.5rem;
+          }
+        }
+        button {
+          background-color: $buttoncolor;
+          border: none;
+          border-radius: 5rem;
+          line-height: 3rem;
+          width: 13rem;
+          box-shadow: 0px 5px 12px rgba(59, 61, 61, 0.4);
+          transition: all 0.3s ease 0s;
+          cursor: pointer;
+          outline: none;
+          &:hover {
+            background-color: #2ee59d;
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            color: #fff;
+            transform: translateY(-7px);
+          }
+          a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 800;
+          }
+        }
+        @media (max-width: 880px) {
+          position: static;
+          text-align: center;
+          padding-top: 1rem;
+        }
+      }
+    }
+    @media (max-width: 880px) {
+      height: auto;
+    }
+  }
+}

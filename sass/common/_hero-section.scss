@@ -1,0 +1,138 @@
+.page-wrapper {
+  background-image: url('../imgs/Phone-Rack_v2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+  @media (max-width: 1600px) {
+    background-size: cover;
+    height: 800px;
+    background-position-x: 50%;
+  }
+  @media (max-width: 1024px) {
+    height: 900px;
+  }
+  @media (max-width: 600px) {
+  }
+}
+
+.section-hero {
+  .slides-caption-left {
+    padding-top: 200px;
+    margin-right: 50%;
+    .hero-info {
+      p {
+        color: $secondarycolor;
+        font-size: 1.5rem;
+      }
+      h1 {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .subtitle {
+        font-size: 3rem;
+        color: $primarycolor;
+      }
+      @media (max-width: 1024px) {
+        p {
+          font-size: 1rem;
+        }
+        h1 {
+          font-size: 2rem;
+        }
+        .subtitle {
+          font-size: 1rem;
+        }
+      }
+      .page-button {
+        padding-top: 5rem;
+        button {
+          background-color: $buttoncolor;
+          border-radius: 5rem;
+          line-height: 3rem;
+          width: 13rem;
+          border: none;
+          font-weight: 500;
+          color: #000;
+          box-shadow: 0px 5px 12px rgba(59, 61, 61, 0.4);
+          transition: all 0.3s ease 0s;
+          cursor: pointer;
+          outline: none;
+          &:hover {
+            background-color: #2ee59d;
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            color: #fff;
+            transform: translateY(-7px);
+          }
+          a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+  .hero-ads {
+    padding-top: 3rem;
+    img {
+      width: 7rem;
+    }
+  }
+  .hero-brands {
+    padding-top: 3rem;
+    h2 {
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+  }
+}
+
+.hero-footer {
+  background-color: #7c92a9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  .hero-footer-content {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    p {
+      display: inline-block;
+      padding-right: 2rem;
+      @media (max-width: 900px) {
+        padding-bottom: 1.5rem;
+      }
+    }
+    button {
+      border: 2px solid white;
+      background-color: transparent;
+      border-radius: 5rem;
+      line-height: 3rem;
+      width: 13rem;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none;
+      &:hover {
+        background-color: #ffffff;
+        box-shadow: 0px 15px 20px rgba(90, 90, 90, 0.4);
+        transform: translateY(-7px);
+        a {
+          color: #7c92a9;
+        }
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 800;
+      }
+    }
+    @media (max-width: 900px) {
+      text-align: center;
+    }
+  }
+}

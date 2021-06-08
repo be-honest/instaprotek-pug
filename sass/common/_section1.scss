@@ -1,0 +1,240 @@
+.section1 {
+  position: relative;
+  @media (max-width: 1600px) {
+    margin-top: 5rem;
+  }
+
+  .section1-content {
+    @media (max-width: 900px) {
+      min-height: 1000px;
+    }
+  }
+  .section1-info {
+    text-align: center;
+    padding-top: 1rem;
+    h2 {
+      font-weight: 200;
+      font-size: 3rem;
+    }
+  }
+  .section-container {
+    padding-top: 5rem;
+    .section1-image {
+      @media (max-width: 1200px) {
+        img {
+          width: 90%;
+        }
+      }
+      @media (max-width: 900px) {
+        img {
+          opacity: 0.3;
+          position: absolute;
+          top: 20rem;
+          left: 1rem;
+        }
+      }
+    }
+    .section-right-container {
+      position: absolute;
+      top: 15rem;
+      right: 15.5rem;
+      max-width: 550px;
+      font-size: 1.5rem;
+
+      @media (max-width: 1550px) {
+        right: 5.5rem;
+        font-size: 1rem;
+      }
+      @media (max-width: 1024px) {
+        right: 1.5rem;
+      }
+      @media (max-width: 900px) {
+        position: static;
+        text-align: center;
+        max-width: unset;
+      }
+      .section-right-content {
+        p {
+          font-size: 1.1rem;
+          padding-top: 1rem;
+          color: $secondarycolor;
+          @media (max-width: 900px) {
+            color: black;
+          }
+        }
+      }
+    }
+    .section-right-details-container {
+      position: absolute;
+      top: 23rem;
+      right: 0;
+      max-width: 800px;
+      font-size: 1.5rem;
+      @media (max-width: 1600px) {
+        right: -10.5rem;
+      }
+      @media (max-width: 1400px) {
+        right: -27.5rem;
+      }
+      @media (max-width: 1200px) {
+        right: -15.5rem;
+      }
+      @media (max-width: 1024px) {
+        right: -25.5rem;
+      }
+      @media (max-width: 900px) {
+        position: static;
+      }
+
+      .section-right-details {
+        display: flex;
+        flex: none;
+        flex-wrap: wrap;
+        @media (max-width: 1600px) {
+          display: block;
+        }
+        @media (max-width: 1200px) {
+          display: flex;
+          flex-direction: column;
+        }
+        @media (max-width: 900px) {
+          padding-top: 2rem;
+          flex-direction: row;
+          padding-left: 5rem;
+        }
+        .list-item {
+          padding: 5rem 2rem 0 0;
+          display: flex;
+          flex-direction: column;
+          align-content: space-evenly;
+          width: 50%;
+          @media (max-width: 1200px) {
+            padding: 1rem;
+          }
+          @media (max-width: 1024px) {
+            padding: 0rem;
+          }
+          i {
+            color: lightgreen;
+            span {
+              color: $buttoncolor;
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 900;
+              font-size: 1.5rem;
+            }
+          }
+          p {
+            font-size: 16px;
+            color: $secondarycolor;
+            line-height: 1.5rem;
+            padding-top: 1rem;
+            padding-right: 5rem;
+            @media (max-width: 1024px) {
+              padding-top: 0.5rem;
+            }
+            @media (max-width: 900px) {
+              color: black;
+            }
+          }
+          @media (max-width: 900px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .section-left-container {
+      position: absolute;
+      bottom: 20rem;
+      left: auto;
+      max-width: 600px;
+      font-size: 1.5rem;
+      @media (max-width: 1200px) {
+        bottom: 7rem;
+      }
+      @media (max-width: 1024px) {
+        padding-right: 10rem;
+      }
+      @media (max-width: 900px) {
+        position: static;
+        text-align: center;
+        max-width: unset;
+        padding: 1rem 0;
+        margin-top: 10rem;
+      }
+      .section-left-content {
+        p {
+          font-size: 1.1rem;
+          padding-top: 1rem;
+          color: $secondarycolor;
+          @media (max-width: 900px) {
+            color: black;
+          }
+        }
+        @media (max-width: 1200px) {
+          h2 {
+            font-size: 1.3rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+        .menu-button {
+          padding-top: 3rem;
+          button {
+            background-color: $buttoncolor;
+            border: none;
+            border-radius: 5rem;
+            line-height: 3rem;
+            width: 13rem;
+            color: #000;
+            box-shadow: 0px 5px 12px rgba(59, 61, 61, 0.4);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+            &:hover {
+              background-color: #2ee59d;
+              box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+              color: #fff;
+              transform: translateY(-7px);
+            }
+            a {
+              color: white;
+              text-decoration: none;
+              font-size: 1rem;
+              font-weight: 800;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section1-footer {
+  .section1-footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      font-size: 2.5rem;
+      @media (max-width: 900px) {
+        padding-top: 5rem;
+      }
+    }
+    p {
+      font-size: 1rem;
+      padding-top: 0.5rem;
+      color: $secondarycolor;
+    }
+    .app-crop {
+      width: 1136px;
+      height: 400;
+      object-fit: cover;
+      object-position: 20px 10px;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+    }
+  }
+}
